@@ -29,8 +29,8 @@ function submitFeedback() {
 submitButton.addEventListener('click',submitFeedback);
 
 
-document.addEventListener("keydown", (event) => {
-   if(event.key === "Enter") {
+document.addEventListener("keydown", (e) => {
+   if(e.key === "Enter") {
     submitFeedback();
    } 
 })
